@@ -1,12 +1,19 @@
 {
   "name": "jamoveo-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --ignore './data' server.js",
+    "server:dev": "nodemon server.js",
+    "server:prod": "set NODE_ENV=production&node server.js",
+    "server:prod:mac": "export NODE_ENV=production && node server.js",
+    "build-client": "cd ../client && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yuval Dadon",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -16,6 +23,15 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.14.1",
+    "nanoid": "^5.1.5",
     "socket.io": "^4.8.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuvalDa22/jamoveo-server"
+  },
+  "bugs": {
+    "url": "https://github.com/YuvalDa22/jamoveo-server/issues"
+  },
+  "homepage": "https://github.com/YuvalDa22/jamoveo-server#readme"
 }
