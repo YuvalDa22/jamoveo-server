@@ -1,10 +1,10 @@
-import User from "../user/user.model";
-import { logger } from "../../services/logger.service";
+import User from "../user/user.model.js";
+import { logger } from "../../services/logger.service.js";
 import {
     hashPassword,
     isPasswordMatch,
     generateToken,
-} from "./auth.service";
+} from "./auth.service.js";
 
 export async function signup(req, res) {
     logger.debug('auth.controller - signup called with body:', req.body);

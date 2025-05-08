@@ -1,6 +1,6 @@
-import Session from "./session.model";
-import User from "../user/user.model";
-import { logger } from "../../services/logger.service";
+import Session from "./session.model.js";
+import User from "../user/user.model.js";
+import { logger } from "../../services/logger.service.js";
 import { customAlphabet } from "nanoid";
 
 export async function createSession(req, res) {
