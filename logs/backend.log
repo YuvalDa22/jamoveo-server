@@ -1,0 +1,21 @@
+8.5.2025, 13:00:44 - INFO - MongoDB connected
+8.5.2025, 13:00:44 - INFO - Server is running on port 5001
+8.5.2025, 13:52:57 - INFO - MongoDB connected
+8.5.2025, 13:52:57 - INFO - Server is running on port 5001
+8.5.2025, 13:56:04 - INFO - MongoDB connected
+8.5.2025, 13:56:04 - INFO - Server is running on port 5001
+8.5.2025, 13:59:15 - WARN - session.controller - missing userId
+8.5.2025, 14:40:18 - DEBUG - auth.controller - signup called with body: | {"username":"YuvalD","password":"123456","instrument":"vocals"}
+8.5.2025, 14:40:18 - INFO - User signup successful: YuvalD
+8.5.2025, 14:43:38 - DEBUG - auth.controller - signup called with body: | {"username":"YuvalD","password":"123456","instrument":"vocals"}
+8.5.2025, 14:43:38 - WARN - auth.controller - username "YuvalD" already exists
+8.5.2025, 14:44:07 - DEBUG - auth.controller - signup called with body: | {"username":"Yuval123","password":"1122334455","instrument":"drums"}
+8.5.2025, 14:44:07 - INFO - User signup successful: Yuval123
+8.5.2025, 14:50:06 - DEBUG - auth.controller - signup called with body: | {"username":"YuvTest","password":"123123","instrument":"saxophone"}
+8.5.2025, 14:50:06 - INFO - User signup successful: YuvTest
+8.5.2025, 14:56:33 - DEBUG - auth.controller - signup called with body: | {"username":"yuvid","password":"123456","instrument":"vocals"}
+8.5.2025, 14:56:33 - INFO - User signup successful: yuvid
+8.5.2025, 15:45:30 - DEBUG - auth.controller - signup called with body: | {"username":"yuvalit","password":"123456","instrument":"vocals"}
+8.5.2025, 15:45:30 - INFO - User signup successful: yuvalit
+8.5.2025, 15:54:47 - DEBUG - auth.controller - login called with body: | {"username":"yuvalit","password":"123456"}
+8.5.2025, 15:54:47 - INFO - User login successful: yuvalit
