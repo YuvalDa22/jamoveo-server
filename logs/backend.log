@@ -19,3 +19,32 @@
 8.5.2025, 15:45:30 - INFO - User signup successful: yuvalit
 8.5.2025, 15:54:47 - DEBUG - auth.controller - login called with body: | {"username":"yuvalit","password":"123456"}
 8.5.2025, 15:54:47 - INFO - User login successful: yuvalit
+8.5.2025, 16:59:00 - DEBUG - auth.controller - login called with body: | {"username":"yuvalit","password":"123456"}
+8.5.2025, 16:59:00 - INFO - User login successful: yuvalit
+8.5.2025, 17:28:37 - DEBUG - auth.controller - signup called with body: | {"username":"Yuval Admin","password":"admin123","instrument":"vocals","role":"admin"}
+8.5.2025, 17:28:37 - INFO - User signup successful: Yuval Admin
+8.5.2025, 17:28:50 - ERROR - session.controller - createSession error: | ValidationError: SessionId: Path `SessionId` is required.
+8.5.2025, 17:37:48 - INFO - MongoDB connected
+8.5.2025, 17:37:48 - INFO - Server is running on port 5001
+8.5.2025, 17:38:01 - INFO - MongoDB connected
+8.5.2025, 17:38:01 - INFO - Server is running on port 5001
+8.5.2025, 17:51:17 - INFO - MongoDB connected
+8.5.2025, 17:51:17 - INFO - Server is running on port 5001
+8.5.2025, 17:51:25 - INFO - MongoDB connected
+8.5.2025, 17:51:25 - INFO - Server is running on port 5001
+8.5.2025, 17:51:32 - INFO - MongoDB connected
+8.5.2025, 17:51:32 - INFO - Server is running on port 5001
+8.5.2025, 17:51:55 - INFO - MongoDB connected
+8.5.2025, 17:51:55 - INFO - Server is running on port 5001
+8.5.2025, 17:52:20 - INFO - MongoDB connected
+8.5.2025, 17:52:20 - INFO - Server is running on port 5001
+8.5.2025, 17:52:28 - INFO - MongoDB connected
+8.5.2025, 17:52:28 - INFO - Server is running on port 5001
+8.5.2025, 17:52:31 - INFO - MongoDB connected
+8.5.2025, 17:52:31 - INFO - Server is running on port 5001
+8.5.2025, 17:52:34 - INFO - MongoDB connected
+8.5.2025, 17:52:34 - INFO - Server is running on port 5001
+8.5.2025, 17:52:45 - INFO - MongoDB connected
+8.5.2025, 17:52:45 - INFO - Server is running on port 5001
+8.5.2025, 17:52:52 - INFO - MongoDB connected
+8.5.2025, 17:52:52 - INFO - Server is running on port 5001

@@ -11,6 +11,8 @@ import sessionRoutes from './api/session/session.routes.js';
 import socketHandler from './sockets/socket.controller.js';
 import { logger } from './services/logger.service.js';
 import { setupAsyncLocalStorage } from './middlewares/als.middleware.js';
+import songRoutes from './api/song/song.routes.js';
+
 
 
 dotenv.config();
@@ -29,6 +31,8 @@ app.use(setupAsyncLocalStorage);
 
 app.use('/api/auth', authRoutes);
 app.use('/api/session', sessionRoutes);
+app.use('/api/song', songRoutes);
+
 
 
 try {
