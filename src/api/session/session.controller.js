@@ -21,6 +21,7 @@ export async function createSession(req, res) {
       "ABCDEFGHJKLMNPQRSTUVWXYZ23456789",
       6
     );
+    
     const session = new Session({
       sessionId: generateSessionId(),
       users: [user._id],

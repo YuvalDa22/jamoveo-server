@@ -48,3 +48,11 @@
 8.5.2025, 17:52:45 - INFO - Server is running on port 5001
 8.5.2025, 17:52:52 - INFO - MongoDB connected
 8.5.2025, 17:52:52 - INFO - Server is running on port 5001
+8.5.2025, 17:56:53 - DEBUG - auth.controller - login called with body: | {"username":"Yuval Admin","password":"admin123"}
+8.5.2025, 17:56:53 - INFO - User login successful: Yuval Admin
+9.5.2025, 13:56:28 - ERROR - session.controller - createSession error: | ValidationError: SessionId: Path `SessionId` is required.
+9.5.2025, 14:03:52 - INFO - Server is running on port 5001
+9.5.2025, 14:03:52 - INFO - MongoDB connected
+9.5.2025, 14:04:29 - INFO - MongoDB connected
+9.5.2025, 14:04:29 - INFO - Server is running on port 5001
+9.5.2025, 14:04:46 - INFO - session.controller - session created: undefined by user Yuval Admin

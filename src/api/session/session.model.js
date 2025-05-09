@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const sessionScheme = new mongoose.Schema({
-    SessionId: {
+    sessionId: {
         type: String,
         required: true,
         unique: true,
