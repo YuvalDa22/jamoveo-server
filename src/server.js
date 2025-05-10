@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 app.get('/api/test', (req, res) => {
   res.send('Test route works');
 });
-
+console.log('[DEBUG] authRoutes type:', typeof authRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/session', sessionRoutes);
 app.use('/api/song', songRoutes);
@@ -49,6 +49,7 @@ app.use('/api/song', songRoutes);
 //test
 console.log('[ROUTES]', listEndpoints(app));
 
+console.log('[DEBUG] Registered routes:', listEndpoints(app).map(r => r.path));
 
 
 try {
