@@ -30,6 +30,12 @@ export default function socketHandler(io) {
       console.log(`Countdown started for session ${sessionId}`);
       io.to(sessionId).emit("countdown-started");
     });
+    
+    // End session (triggered by admin)
+    socket.on("end-session", ({ sessionId }) => {
+      console.log(`Ending session ${sessionId}`);
+      io.to(sessionId).emit("session-ended");
+    });
 
     // Disconnect
     socket.on("disconnect", () => {
