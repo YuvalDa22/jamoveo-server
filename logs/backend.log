@@ -150,3 +150,7 @@
 9.5.2025, 19:00:45 - INFO - session.controller - session created: BM2CFJ by user Yuval Admin
 9.5.2025, 19:01:05 - INFO - session.controller - user 681cbf950064e50b088dc4ce joined session BM2CFJ
 9.5.2025, 19:01:19 - INFO - session.controller - session created: P8QF8M by user Yuval Admin
+10.5.2025, 9:31:38 - INFO - MongoDB connected
+10.5.2025, 9:31:38 - INFO - Server is running on port 5001
+10.5.2025, 9:31:40 - INFO - MongoDB connected
+10.5.2025, 9:31:40 - INFO - Server is running on port 5001
