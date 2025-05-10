@@ -35,10 +35,21 @@ app.use((req, res, next) => {
   next();
 });
 
+//test
+app.get('/api/test', (req, res) => {
+  res.send('Test route works');
+});
+
 app.use('/api/auth', authRoutes);
 app.use('/api/session', sessionRoutes);
 app.use('/api/song', songRoutes);
 
+//test
+app._router.stack.forEach((r) => {
+  if (r.route && r.route.path) {
+    console.log(`[ROUTE] ${r.route.stack[0].method.toUpperCase()} ${r.route.path}`);
+  }
+});
 
 
 try {
