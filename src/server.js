@@ -37,6 +37,10 @@ app.use((req, res, next) => {
 // MOUNT ROUTES
 console.log('[DEBUG] authRoutes type:', typeof authRoutes);
 app.use('/api/auth', authRoutes);
+app.get('/api/debug', (req, res) => {
+  res.json({ type: typeof authRoutes });
+});
+
 app.use('/api/session', sessionRoutes);
 app.use('/api/song', songRoutes);
 
