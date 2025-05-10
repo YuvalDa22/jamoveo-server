@@ -56,3 +56,97 @@
 9.5.2025, 14:04:29 - INFO - MongoDB connected
 9.5.2025, 14:04:29 - INFO - Server is running on port 5001
 9.5.2025, 14:04:46 - INFO - session.controller - session created: undefined by user Yuval Admin
+9.5.2025, 14:09:35 - DEBUG - auth.controller - signup called with body: | {"username":"yuvTest","password":"123123123","instrument":"drums"}
+9.5.2025, 14:09:35 - INFO - User signup successful: yuvTest
+9.5.2025, 14:16:36 - INFO - session.controller - user 681de26f59c69db955caf169 joined session Z6ZSYS
+9.5.2025, 18:07:38 - INFO - MongoDB connected
+9.5.2025, 18:07:38 - INFO - Server is running on port 5001
+9.5.2025, 18:07:51 - INFO - MongoDB connected
+9.5.2025, 18:07:51 - INFO - Server is running on port 5001
+9.5.2025, 18:08:16 - INFO - MongoDB connected
+9.5.2025, 18:08:16 - INFO - Server is running on port 5001
+9.5.2025, 18:08:21 - INFO - MongoDB connected
+9.5.2025, 18:08:21 - INFO - Server is running on port 5001
+9.5.2025, 18:08:25 - INFO - MongoDB connected
+9.5.2025, 18:08:25 - INFO - Server is running on port 5001
+9.5.2025, 18:08:29 - INFO - MongoDB connected
+9.5.2025, 18:08:29 - INFO - Server is running on port 5001
+9.5.2025, 18:08:32 - INFO - MongoDB connected
+9.5.2025, 18:08:32 - INFO - Server is running on port 5001
+9.5.2025, 18:08:53 - INFO - MongoDB connected
+9.5.2025, 18:08:53 - INFO - Server is running on port 5001
+9.5.2025, 18:08:56 - INFO - MongoDB connected
+9.5.2025, 18:08:56 - INFO - Server is running on port 5001
+9.5.2025, 18:08:58 - INFO - MongoDB connected
+9.5.2025, 18:08:58 - INFO - Server is running on port 5001
+9.5.2025, 18:09:00 - INFO - MongoDB connected
+9.5.2025, 18:09:00 - INFO - Server is running on port 5001
+9.5.2025, 18:09:41 - INFO - MongoDB connected
+9.5.2025, 18:09:42 - INFO - Server is running on port 5001
+9.5.2025, 18:09:57 - INFO - MongoDB connected
+9.5.2025, 18:09:57 - INFO - Server is running on port 5001
+9.5.2025, 18:09:59 - INFO - MongoDB connected
+9.5.2025, 18:09:59 - INFO - Server is running on port 5001
+9.5.2025, 18:10:01 - INFO - MongoDB connected
+9.5.2025, 18:10:01 - INFO - Server is running on port 5001
+9.5.2025, 18:10:17 - INFO - MongoDB connected
+9.5.2025, 18:10:17 - INFO - Server is running on port 5001
+9.5.2025, 18:10:18 - INFO - MongoDB connected
+9.5.2025, 18:10:18 - INFO - Server is running on port 5001
+9.5.2025, 18:10:20 - INFO - MongoDB connected
+9.5.2025, 18:10:20 - INFO - Server is running on port 5001
+9.5.2025, 18:10:23 - INFO - MongoDB connected
+9.5.2025, 18:10:23 - INFO - Server is running on port 5001
+9.5.2025, 18:10:29 - INFO - MongoDB connected
+9.5.2025, 18:10:29 - INFO - Server is running on port 5001
+9.5.2025, 18:10:30 - INFO - MongoDB connected
+9.5.2025, 18:10:30 - INFO - Server is running on port 5001
+9.5.2025, 18:10:34 - INFO - MongoDB connected
+9.5.2025, 18:10:34 - INFO - Server is running on port 5001
+9.5.2025, 18:10:39 - INFO - MongoDB connected
+9.5.2025, 18:10:39 - INFO - Server is running on port 5001
+9.5.2025, 18:10:42 - INFO - MongoDB connected
+9.5.2025, 18:10:42 - INFO - Server is running on port 5001
+9.5.2025, 18:10:46 - INFO - MongoDB connected
+9.5.2025, 18:10:46 - INFO - Server is running on port 5001
+9.5.2025, 18:10:50 - INFO - MongoDB connected
+9.5.2025, 18:10:50 - INFO - Server is running on port 5001
+9.5.2025, 18:10:54 - INFO - MongoDB connected
+9.5.2025, 18:10:54 - INFO - Server is running on port 5001
+9.5.2025, 18:10:57 - INFO - MongoDB connected
+9.5.2025, 18:10:57 - INFO - Server is running on port 5001
+9.5.2025, 18:11:02 - INFO - MongoDB connected
+9.5.2025, 18:11:02 - INFO - Server is running on port 5001
+9.5.2025, 18:11:04 - INFO - MongoDB connected
+9.5.2025, 18:11:04 - INFO - Server is running on port 5001
+9.5.2025, 18:16:09 - INFO - MongoDB connected
+9.5.2025, 18:16:09 - INFO - Server is running on port 5001
+9.5.2025, 18:19:45 - INFO - MongoDB connected
+9.5.2025, 18:19:45 - INFO - Server is running on port 5001
+9.5.2025, 18:19:49 - INFO - MongoDB connected
+9.5.2025, 18:19:49 - INFO - Server is running on port 5001
+9.5.2025, 18:20:30 - DEBUG - auth.controller - login called with body: | {"username":"Yuval Admin","password":"admin123"}
+9.5.2025, 18:20:31 - INFO - User login successful: Yuval Admin
+9.5.2025, 18:20:36 - ERROR - session.controller - createSession error: | MongoServerError: E11000 duplicate key error collection: moveoProj_db.sessions index: SessionId_1 dup key: { SessionId: null }
+9.5.2025, 18:32:51 - INFO - MongoDB connected
+9.5.2025, 18:32:51 - INFO - Server is running on port 5001
+9.5.2025, 18:33:28 - ERROR - session.controller - createSession error: | MongoServerError: E11000 duplicate key error collection: moveoProj_db.sessions index: SessionId_1 dup key: { SessionId: null }
+9.5.2025, 18:35:15 - INFO - MongoDB connected
+9.5.2025, 18:35:15 - INFO - Server is running on port 5001
+9.5.2025, 18:35:16 - INFO - MongoDB connected
+9.5.2025, 18:35:16 - INFO - Server is running on port 5001
+9.5.2025, 18:35:38 - INFO - MongoDB connected
+9.5.2025, 18:35:38 - INFO - Server is running on port 5001
+9.5.2025, 18:35:39 - INFO - MongoDB connected
+9.5.2025, 18:35:40 - INFO - Server is running on port 5001
+9.5.2025, 18:35:51 - ERROR - session.controller - createSession error: | MongoServerError: E11000 duplicate key error collection: moveoProj_db.sessions index: SessionId_1 dup key: { SessionId: null }
+9.5.2025, 18:53:06 - INFO - MongoDB connected
+9.5.2025, 18:53:06 - INFO - Server is running on port 5001
+9.5.2025, 18:53:23 - INFO - MongoDB connected
+9.5.2025, 18:53:23 - INFO - Server is running on port 5001
+9.5.2025, 18:53:28 - INFO - MongoDB connected
+9.5.2025, 18:53:28 - INFO - Server is running on port 5001
+9.5.2025, 18:53:41 - ERROR - session.controller - createSession error: | MongoServerError: E11000 duplicate key error collection: moveoProj_db.sessions index: SessionId_1 dup key: { SessionId: null }
+9.5.2025, 19:00:45 - INFO - session.controller - session created: BM2CFJ by user Yuval Admin
+9.5.2025, 19:01:05 - INFO - session.controller - user 681cbf950064e50b088dc4ce joined session BM2CFJ
+9.5.2025, 19:01:19 - INFO - session.controller - session created: P8QF8M by user Yuval Admin

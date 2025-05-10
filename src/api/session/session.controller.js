@@ -21,15 +21,19 @@ export async function createSession(req, res) {
       "ABCDEFGHJKLMNPQRSTUVWXYZ23456789",
       6
     );
-    
+    const sessionId = generateSessionId();
+    console.log('Generated Session ID:', sessionId);
+
     const session = new Session({
-      sessionId: generateSessionId(),
+      sessionId,
       users: [user._id],
     });
 
+    console.log('Session object before save:', session);
+
     await session.save();
     logger.info(
-      `session.controller - session created: ${session.SessionId} by user ${user.username}`
+      `session.controller - session created: ${session.sessionId} by user ${user.username}`
     );
     res.status(201).json({ session });
   } catch (error) {
