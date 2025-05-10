@@ -4,6 +4,8 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import http from 'http';
 import { Server } from 'socket.io';
+import listEndpoints from 'express-list-endpoints';
+
 
 
 import authRoutes from './api/auth/auth.routes.js';
@@ -45,11 +47,8 @@ app.use('/api/session', sessionRoutes);
 app.use('/api/song', songRoutes);
 
 //test
-app._router.stack.forEach((r) => {
-  if (r.route && r.route.path) {
-    console.log(`[ROUTE] ${r.route.stack[0].method.toUpperCase()} ${r.route.path}`);
-  }
-});
+console.log('[ROUTES]', listEndpoints(app));
+
 
 
 try {
