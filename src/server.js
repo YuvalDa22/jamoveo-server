@@ -31,15 +31,15 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/test-direct', (req, res) => {
-  res.send('Direct route works!');
-});
-
-
 app.use('/api/auth', authRoutes);
 app.use('/api/session', sessionRoutes);
 app.use('/api/song', songRoutes);
 
+
+app.get('/test-direct', (req, res) => {
+  res.send('Direct route works!');
+});
+console.log('[DEBUG] /test-direct route registered');
 
 app.get('/', (req, res) => {
   res.send('Jamoveo server is running');
