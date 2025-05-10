@@ -6,6 +6,10 @@ import {
     generateToken,
 } from "./auth.service.js";
 
+// debug
+console.log('[DEBUG] auth.controller.js loaded');
+
+
 export async function signup(req, res) {
     logger.debug('auth.controller - signup called with body:', req.body);
     try {
