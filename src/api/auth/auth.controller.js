@@ -7,7 +7,7 @@ import {
 } from "./auth.service.js";
 
 // debug
-console.log('[DEBUG] auth.controller.js loaded');
+//console.log('[DEBUG] auth.controller.js loaded');
 
 
 export async function signup(req, res) {

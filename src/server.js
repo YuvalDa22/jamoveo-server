@@ -26,20 +26,20 @@ app.use(express.json());
 app.use(setupAsyncLocalStorage);
 
 //  DEBUG
-app.use((req, res, next) => {
-  console.log(`[REQ] ${req.method} ${req.url}`);
-  next();
-});
+// app.use((req, res, next) => {
+//   console.log(`[REQ] ${req.method} ${req.url}`);
+//   next();
+// });
 
 app.use('/api/auth', authRoutes);
 app.use('/api/session', sessionRoutes);
 app.use('/api/song', songRoutes);
 
 
-app.get('/test-direct', (req, res) => {
-  res.send('Direct route works!');
-});
-console.log('[DEBUG] /test-direct route registered');
+// app.get('/test-direct', (req, res) => {
+//   res.send('Direct route works!');
+// });
+// console.log('[DEBUG] /test-direct route registered');
 
 app.get('/', (req, res) => {
   res.send('Jamoveo server is running');

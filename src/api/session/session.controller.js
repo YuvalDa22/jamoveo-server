@@ -22,14 +22,14 @@ export async function createSession(req, res) {
       6
     );
     const sessionId = generateSessionId();
-    console.log('Generated Session ID:', sessionId);
+    //console.log('Generated Session ID:', sessionId);
 
     const session = new Session({
       sessionId,
       users: [user._id],
     });
 
-    console.log('Session object before save:', session);
+    //console.log('Session object before save:', session);
 
     await session.save();
     logger.info(
