@@ -192,3 +192,6 @@
 10.5.2025, 14:17:12 - INFO - Server is running on port 5001
 10.5.2025, 14:21:27 - INFO - MongoDB connected
 10.5.2025, 14:21:27 - INFO - Server is running on port 5001
+10.5.2025, 14:50:52 - DEBUG - auth.controller - signup called with body: | {"username":"test11","password":"test11","instrument":"guitar"}
+10.5.2025, 14:50:53 - INFO - User signup successful: test11
+10.5.2025, 14:51:12 - INFO - session.controller - user 681f3d9defc5114f71a7a7fe joined session P8QF8M
